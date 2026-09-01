@@ -1,0 +1,15 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+{%- if crate_type == "lib" %}
+edition = "2018"
+rust-version = "1.46.0"
+{%- endif %}
+authors = ["echohumm"]
+license = "GPL-3.0 OR MIT"
+include = [
+    "src/**",
+    "Cargo.toml",
+    "LICENSE-GPL",
+    "LICENSE-MIT"
+]
