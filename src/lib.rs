@@ -17,6 +17,8 @@
     clippy::module_name_repetitions,
     clippy::use_self,
     clippy::question_mark,
+    // the From trait is evil and i hate it
+    clippy::cast_lossless,
     unused_unsafe
 )]
 #![warn(unknown_lints)]
