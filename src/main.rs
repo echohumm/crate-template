@@ -14,6 +14,7 @@
     clippy::module_name_repetitions,
     clippy::use_self,
     clippy::question_mark,
+    clippy::cast_lossless,
     unused_unsafe
 )]
 
