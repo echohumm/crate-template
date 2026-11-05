@@ -22,6 +22,5 @@
     unused_unsafe
 )]
 #![warn(unknown_lints)]
-#![no_implicit_prelude]
 
 extern crate core;
